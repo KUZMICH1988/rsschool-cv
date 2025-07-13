@@ -6,3 +6,19 @@
 body{
     background-color: #ece6e6;
 }
+h1{
+    font-size: 40px;
+
+}
+header{
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+img{
+    width: 400px;
+    height: 400px;
+    border-radius: 200px;
+}
+
