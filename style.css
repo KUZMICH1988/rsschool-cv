@@ -6,19 +6,33 @@
 body{
     background-color: #ece6e6;
 }
+
+.header,
+.main,
+.footer{
+    width: 1240px;
+    margin: 0 auto;
+}
+
 h1{
     font-size: 40px;
 
+
 }
-header{
+.header{
     padding: 40px;
     display: flex;
     flex-direction: row;
     gap: 40px;
+    text-transform: uppercase;
+}
+.header__foto{
+    width: 200px;
+    height: 200px;
 }
 img{
-    width: 400px;
-    height: 400px;
+    width: 200px;
+    height: 200px;
     border-radius: 200px;
 }
 
